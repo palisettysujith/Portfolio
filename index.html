@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palisetty Sujith | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blob"></div>
+    <nav>
+    <div class="logo">PS.</div>
+        <div class="menu-btn" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="hero">
+            <p style="letter-spacing: 3px; color: var(--accent-2);">PORTFOLIO</p>
+            <h1>Palisetty Sujith</h1>
+            <div class="typing-text" id="type-target"></div>
+            <p style="color: var(--text-dim); max-width: 500px; margin-top: 20px;">
+                Mechanical Engineer from NIT Durgapur. Crafting efficient machines and clean code.
+            </p>
+            <a href="#contact" class="btn">CONTACT ME</a>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="section-title">01. About Me</h2>
+        <div class="glass-card" style="max-width: 800px; margin: 0 auto;">
+            <p><strong>Age:</strong> 18</p>
+            <p><strong>College:</strong> NIT Durgapur</p>
+            <p><strong>Branch:</strong> Mechanical Engineering</p>
+            <div style="height: 1px; background: var(--border); margin: 25px 0;"></div>
+            <p style="color: var(--text-dim);">
+                I am driven by the intersection of robotics and software. Currently a first-year student focusing on how mechanical systems can be optimized through modern programming and automation.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">02. Skills</h2>
+        <div class="grid" style="max-width: 600px; margin: 0 auto;">
+            <div class="glass-card" style="text-align: left;">
+                <p>C Programming</p>
+                <div class="progress-bg"><div class="progress-fill" style="width: 85%;"></div></div>
+                <p style="margin-top: 15px;">DSA</p>
+                <div class="progress-bg"><div class="progress-fill" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">03. Engineering Projects</h2>
+        <div class="grid">
+            <div class="glass-card project-card">
+                <i class="fas fa-route"></i>
+                <h3>Line Following Robot</h3>
+                <p>Automated path navigation using IR sensors and logic-based controllers.</p>
+            </div>
+            <div class="glass-card project-card">
+                <i class="fas fa-shield-virus"></i>
+                <h3>Obstacle Avoiding Bot</h3>
+                <p>Real-time obstacle detection using ultrasonic sensors and autonomous steering.</p>
+            </div>
+            <div class="glass-card project-card">
+                <i class="fas fa-wifi"></i>
+                <h3>WiFi Controlled Bot</h3>
+                <p>Smartphone-operated vehicle utilizing ESP8266 and WebSocket communication.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-container glass-card" style="text-align: center;">
+            <div class="contact-info" style="margin-bottom: 2rem;">
+                <p style="font-size: 1.2rem; margin-bottom: 1rem;">
+                    <i class="fas fa-envelope" style="color: var(--accent-cyan); margin-right: 10px;"></i>
+                    palisettysujith@gmail.com
+                </p>
+                <p style="font-size: 1.2rem;">
+                    <i class="fas fa-phone" style="color: var(--accent-purple); margin-right: 10px;"></i>
+                    +91 9542384284
+                </p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer>
+        &copy; 2024 Palisetty Sujith | NIT Durgapur
+    </footer>
+</body>
+</html>
